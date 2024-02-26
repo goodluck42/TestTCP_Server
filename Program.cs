@@ -3,7 +3,7 @@ using System.Net.Sockets;
 using System.Text;
 
 var server = new Socket(SocketType.Stream, ProtocolType.Tcp);
-var endPoint = IPEndPoint.Parse("10.0.0.101:13374");
+var endPoint = IPEndPoint.Parse("10.0.0.198:13375");
 
 server.Bind(endPoint);
 server.Listen();
